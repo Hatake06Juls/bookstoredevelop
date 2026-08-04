@@ -35,10 +35,10 @@ public class Usuarios
     private String email;
 
     @NotBlank(message = "El cellular es obligatorio")
-    private String cellular;
+    private String celular;
 
     private  Long rol;
 
-    @NotBlank(message = "El password es obligatorio")
-    private String Ppassword;
+    //@NotBlank(message = "El password es obligatorio")
+    private String Password;
 }
